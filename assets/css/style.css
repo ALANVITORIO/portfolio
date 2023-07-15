@@ -33,6 +33,12 @@ h6.meu-edit {
   color: #1e1e1e;
 }
 
+.work-img img {
+  height: 400px; /* ajuste conforme necessário */
+  width: 100%;
+  object-fit: cover; /* isso faz a imagem cobrir todo o espaço disponível */
+}
+
 a {
   color: #e1e1e1; /* Inverso de #1e1e1e */
   text-decoration: none;
